@@ -1,0 +1,93 @@
+body{
+    max-width: 860px;
+    margin: auto;
+    text-align: center;
+    border: #6495ed;
+}
+
+header{
+    text-align: center;
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Merienda', cursive;
+    color: #6495ed;
+}
+
+.container{
+    max-width: 860px;
+    margin: 0 auto;
+    
+    /* margin: 0 auto; */
+    border: solid #e6eef5;
+}
+
+.characterImage{
+    width: 180px;
+    height: auto;
+    z-index: 0;
+}
+
+.charactersStyle{
+    padding: 20px;
+}
+
+.pText1{
+    text-align: center;
+    /* margin-bottom: 5px; */
+    font-size: 20px;
+    color: #2296fd;
+    font-family: 'Merienda', cursive;
+    /* font-family: 'Caveat', cursive; */
+    /* position: absolute;
+    top: 10px;
+    left: 60px; */
+}
+.pText2{
+    text-align: center;
+    margin: 5px;
+    position: absolute;
+    bottom: 1px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #dc3545;
+    font-family: 'Charm', cursive;
+}
+
+.divImageCharacters{
+    border: solid #b6b4b6;
+    /* border-radius: 20px; */
+    margin-left:  10px;
+    margin-bottom:5px;
+    width: 180px;
+    height: 260px;
+    position: relative;
+    float:left;
+}
+
+.divImagePlayer{
+    border: solid #f92672 5px;
+    border-radius: 200px;
+    width: 220px;
+    height: 300px;  
+    padding: 20px;  
+}
+
+.winLabel{
+    opacity: 1;
+    padding: 10px;
+    background-color:#ffffff;
+    position:absolute;
+    width: 190px;
+    top:150px;
+    left:35px;
+    overflow: auto;
+    z-index: 2;
+}
+
+.btn_style{
+    position: absolute;
+    left:12%;
+    top: 45%;
+    width: 200px;
+    /* padding: 50px; */
+}
