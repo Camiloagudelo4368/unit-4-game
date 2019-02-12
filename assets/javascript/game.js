@@ -27,7 +27,7 @@ _character = new newCharacterObject();
 _character.id = 2;
 _character.name = "Choi";
 _character.healtPoints = 120;
-_character.attackPower = 2;
+_character.attackPower = 25;
 _character.url = 'assets/images/choi.gif'
 
 _charactersList.push(_character)
@@ -51,7 +51,7 @@ _character = new newCharacterObject();
 _character.id = 4;
 _character.name = "Kyo";
 _character.healtPoints = 135;
-_character.attackPower = 5;
+_character.attackPower = 2;
 _character.url = 'assets/images/kyo.gif'
 
 _charactersList.push(_character)
